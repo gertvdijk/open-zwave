@@ -1,4 +1,4 @@
-<Product Revision="1" xmlns="https://github.com/OpenZWave/open-zwave">
+<Product Revision="2" xmlns="https://github.com/OpenZWave/open-zwave">
     <!--
   Qubino: ZMNHHDx Mini Dimmer Z-Wave+
   https://products.z-wavealliance.org/products/3381
@@ -63,7 +63,7 @@
             <Help>2 - 99 = 2% - 99%, step is 1%. Maximum dimming values is set by entered value.
                 Default value 99 (Maximum dimming value is 99%).</Help>
         </Value>
-        <Value genre="config" index="65" instance="1" label="Dimming time (soft on/off)" max="255" min="1" type="short" value="100">
+        <Value genre="config" index="65" instance="1" label="Dimming time (soft on/off)" max="255" min="1" type="byte" value="100">
             <Help>Set value means time of moving the Dimmer between min. and max. dimming values by short press of push button I1 or controlled through.
                 1- 255 = 10mseconds - 2550mseconds (2,55s), step is 10mseconds.
                 Default value 100 (Dimming time between min. and max. dimming values is 1s).</Help>
